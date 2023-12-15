@@ -2,10 +2,153 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ghostix</title>
+    <title>Ghostix GameDev</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/buttons.js"></script>
 </head>
 <body>
-    <p>Yeeeeeeeah... This page is not ready yet. </p>
+    <div class="container">
+        <div class="navbar">
+          <div class="navitemscontainer">
+            <a class="navitems" href="index.html">Home</a>
+            <a class="navitems" href="#videogamesSection">Games</a>
+            <a class="navitems" href="#aboutSection">About</a>
+          </div>
+        </div>
+        <img src="./assets/images/Ghostix Banner.png" alt="Ghostix Banner" class="banner">
+        <div class="GlowTitleContainer">
+          <p class="GlowTitle">What do we do?</p>
+          <div class="cosoVerde"></div>
+        </div>
+        <div class="glowContainer">
+          <div class="glowElements1">
+            <div class="glowElement">
+              <div class="glowSquare">
+                <img src="./assets/images/videogames.png">
+              </div>
+              <p class="miniTitle">
+                Game Development
+              </p>
+              <p class="ForeText">
+                Our main porpouse is</br>
+                developing Indie games.</br>
+                Try our games!</br>
+                &#40Available on GitHub and Itch.io&#41.
+              </p>
+            </div>
+            <div class="glowElement">
+              <div class="glowSquare">
+                <img src="./assets/images/software.png">
+              </div>
+              <p class="miniTitle">
+                Software development
+              </p>
+              <p class="ForeText">
+                We can also make software</br> non related
+                to videogames, </br>such like CRUD 
+                systems</br> or other projects. 
+              </p>
+            </div>
+        </div>
+        <div class="glowElements2">
+          <div class="glowElement">
+            <div class="glowSquare">
+              <img src="./assets/images/website.png">
+            </div>
+            <p class="miniTitle">
+              Website development
+            </p>
+            <p class="ForeText">
+              We can design and build</br>
+               a new website</br>
+               to boost your business</br>
+                and go to the next level!
+
+            </p>
+
+          </div>
+          <div class="glowElement">
+            <div class="glowSquare">
+              <img src="./assets/images/money.svg">
+            </div>
+            <p class="miniTitle">
+              Freelancer services
+            </p>
+            <p class="ForeText">
+              You can contact us</br>
+               for freelance services.</br>
+              We can made that project </br>
+              that you wish, become A REALITY.
+            </p>
+          </div>
+
+        </div>
+        </div>
+        <div class="separator"></div>
+        <div class="separator2"></div>
+        <div class="videogamesSection" >
+          <p class="title" id="videogamesSection">Our Games!</p>
+          <p class="ComingSoon">Sorry, we have not finished any game yet.</p>
+        </div>
+        <div class="separator"></div>
+        <div class="separator2"></div>
+        <div class="aboutSection">
+          <p class="title" id="aboutSection">About us!</p>
+          <p>We are a Indie game developing Studio from Argentina, composed </br>
+            by only one person at the moment but with plannings to add more people</br>
+            to our team in the future.</br>
+            We also make software and Websites under freelance service, our contact</br>
+            info is down below. By the way, I, the current only member of the team and CEO </br>
+            don't have a portfolio made yet because I lack from any noticeable laboral experience</br> but,
+            you can checkout my github page for reading small projects of my own</br>
+            and you can test me if you want. We are not looking for jobs yet, but </br>
+            we are open to offers.</p>
+        </div>
+        <div class="separator"></div>
+        <div class="separator2"></div>
+        <div class="socialMediaContainer">
+          <p class="title">Our social media</p>
+            <div class="socialCirclesContainer">
+              <div class="socialCircles1">
+                <button class="socialCircle" onclick="openTab('https://discord.gg/mU5xyFm384')">
+                  <img src="assets/images/discord.png">
+                </button>
+                <button class="socialCircle" onclick="openTab('https://www.x.com/GhostixGameDev')">
+                  <img src="assets/images/Twitter X.png">
+                </button>
+                <button class="socialCircle" onclick="openTab('https://www.youtube.com/@GhostixGameDev')">
+                  <img src="assets/images/youtube.png">
+                </button>
+              </div>
+              <div class="socialCircles2">
+                <button class="socialCircle" onclick="openTab('https://www.github.com/GhostixGameDev')">
+                  <img src="assets/images/github.png">
+                </button>      
+                <button class="socialCircle" onclick="openTab('https://www.instagram.com/GhostixGameDev')">
+                    <img src="assets/images/instagram.png">
+                </button>
+
+                <button class="socialCircle" onclick="openTab('https://www.itch.io/GhostixGameDev')">
+                    <img src="assets/images/itch-io.png">
+                </button>
+              </div>
+
+            </div>
+        </div>
+        <div class="contactSection">
+          <div class="mail">
+            <img src="assets/images/email.png" alt="Email icon">
+            <p>business@ghostix.com.ar</p>
+          </div>
+          <div class="credits">
+            <p>Vector icons credits:</p>
+            <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
+  
+          </div>
+
+        </div>
+    </div>
 </body>
 </html>
