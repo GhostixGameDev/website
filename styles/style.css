@@ -62,7 +62,7 @@ html { scroll-behavior: smooth; }
 }
 .container .navitemscontainer .navitems:hover{
 	transition: 0.3s ease-in-out;
-	color: white;
+	color: #fdff87;
 	width: 95px;
 	margin-top: 3%;
 	border: 2px;
@@ -400,6 +400,7 @@ html { scroll-behavior: smooth; }
 	margin-right: 5%;
 	text-align: right;
 }
+
 .contactSection .credits a{
 	margin-top: -10px;
 }
